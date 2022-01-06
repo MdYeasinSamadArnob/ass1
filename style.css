@@ -1,0 +1,139 @@
+body {
+  /* font-family: "Poppins", sans-serif; */
+  padding: 0;
+  margin: 0;
+}
+
+.make-half {
+  display: flex;
+  margin-top: 5%;
+  /* background-image: url(images/person/person-2.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: right; */
+}
+
+.fix-position {
+  margin-left: 10%;
+}
+
+.make-half .img-person {
+  width: 67%;
+  align-self: flex-start;
+  margin-top: -20%;
+  margin-left: 5%;
+}
+
+.left-border {
+  border-left: 10px solid red;
+  border-radius: 10px;
+}
+.give-width {
+  width: 100%;
+  margin-right: 10%;
+}
+
+.make-big {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.make-big h1 {
+  margin: 10px;
+}
+
+.card-content-1 {
+  width: 31%;
+
+  background-color: #edf5f6;
+  border-radius: 20px;
+  margin-right: 30px;
+  padding: 2%;
+}
+
+.card-content-2 {
+  width: 31%;
+
+  background-color: #ffeeee;
+  border-radius: 20px;
+  margin-right: 30px;
+  padding: 2%;
+}
+
+.card-content-3 {
+  width: 31%;
+
+  background-color: #fff4d6;
+  border-radius: 20px;
+  margin-right: 30px;
+  padding: 2%;
+}
+
+.card-image {
+  width: 40%;
+}
+
+.img-fix {
+  width: 35%;
+}
+
+.img-fix-2 {
+  width: 35%;
+  margin-right: 10%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* IDs */
+
+#explore-now-button {
+  text-decoration: none;
+  background-color: #ff5959;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+
+#bg-1 {
+  /* background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: -10% 10px; */
+  /* border-left: 50px solid;
+  border-image: url(images/shapes/shape-1.png);
+  border-image-slice: 1; */
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: left;
+  background-position-x: 4%;
+  background-position-y: 30%;
+}
+
+#bg-2 {
+  /* background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: -10% 10px; */
+  /* border-left: 50px solid;
+    border-image: url(images/shapes/shape-1.png);
+    border-image-slice: 1; */
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 12%;
+  background-position: right bottom;
+  background-position-x: 95%;
+  background-position-y: 80%;
+}
+
+#highlight {
+  color: #ffad5a;
+}
